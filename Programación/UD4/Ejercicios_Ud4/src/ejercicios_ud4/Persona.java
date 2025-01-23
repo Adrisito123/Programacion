@@ -4,7 +4,7 @@ package ejercicios_ud4;
 public class Persona {
 
     // Atributos
-    private String nombre;
+    String nombre;
     private int edad;
     private double estatura;
     private String apellido;

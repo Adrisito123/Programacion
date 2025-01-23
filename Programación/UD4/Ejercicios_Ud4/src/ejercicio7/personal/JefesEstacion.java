@@ -2,7 +2,7 @@ package ejercicio7.personal;
 
 import java.time.LocalDateTime;
 
-public class JefesEstacion {
+public class JefesEstacion  {
 
     private String nombre;
     private String dni;
