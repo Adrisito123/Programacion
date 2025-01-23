@@ -16,9 +16,9 @@ public class Fiesta {
         adrian.setSexo(Sexo.HOMBRE);
         System.out.println(adrian.getNombre() + " " + adrian.getEdad() + " " + adrian.getEstatura() + " " + adrian.getSexo() );
        
-        Empleados Manuel = new Empleados();
-        System.out.println("Empleado: " + Manuel.nombre);
-        System.out.println("Empelado: " + Manuel.salario );
+        Empleados Manuel = new Empleados(100);
+        System.out.println("Empleado: " + Manuel.getNombre());
+        System.out.println("Empelado: " + Manuel.getSalario() );
     }
 
 }

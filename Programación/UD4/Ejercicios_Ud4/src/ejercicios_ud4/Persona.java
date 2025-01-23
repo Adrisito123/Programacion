@@ -4,11 +4,11 @@ package ejercicios_ud4;
 public class Persona {
 
     // Atributos
-    String nombre;
-    private int edad;
-    private double estatura;
-    private String apellido;
-    private Sexo sexo;
+   protected String nombre;
+   protected int edad;
+   protected double estatura;
+   protected String apellido;
+   protected Sexo sexo;
 
     //Constructor
     public Persona(String nombre, int edad, double estatura) {
