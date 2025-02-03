@@ -12,12 +12,15 @@ public class Motocicleta extends Vehiculo {
     
     public void mostrarDetalles(){
     
-        System.out.println("Marca: " + marca);
-        System.out.println("Modelo " + modelo);
-        System.out.println("Año: " + anio);
+        super.mostrarDetalles();
         System.out.println("Tiene Sidecar: " + tieneSidecar);
         
     }
 
+    public void mover(){
+    
+        System.out.println("La motocicleta esta en movimiento");
+    
+    }
     
 }

@@ -19,6 +19,11 @@ public class Vehiculo {
 
  }
     
+    public void mover(){
+    
+        
+    }
+    
     public String getMarca() {
         return marca;
     }

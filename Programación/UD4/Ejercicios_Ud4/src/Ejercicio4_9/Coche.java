@@ -12,13 +12,17 @@ public class Coche extends Vehiculo {
    
     public void mostrarDetalles(){
         
-        System.out.println("Marca: " + marca);
-        System.out.println("Modelo " + modelo);
-        System.out.println("Año: " + anio);
+        super.mostrarDetalles();
         System.out.println("Número de Puertas: " + numPuertas);
 
     }
 
+    public void mover(){
+    
+        System.out.println("El coche esta en movimiento");
+    
+    }
+    
     public int getNumPuertas() {
         return numPuertas;
     }
