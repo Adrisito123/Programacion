@@ -11,7 +11,8 @@ public class MarcaPagina {
         this.totalPaginas = totalPaginas;
         this.paginaActual = 0;
     }
-
+    
+    
     public void incremetarPagina(){
     if (paginaActual < totalPaginas){
     paginaActual++;
@@ -33,6 +34,15 @@ public class MarcaPagina {
         System.out.println("Has vuelto al principio");
     
     }
+
+    public String getTituloLibro() {
+        return tituloLibro;
+    }
+
+    public void setTituloLibro(String tituloLibro) {
+        this.tituloLibro = tituloLibro;
+    }
     
+
      
 }

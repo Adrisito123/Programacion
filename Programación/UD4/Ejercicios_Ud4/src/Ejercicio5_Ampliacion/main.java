@@ -6,11 +6,16 @@ public class main {
         
         MarcaPagina uno = new MarcaPagina("La bella y la bestia" , 100 , 0);
         
+        uno.setTituloLibro("La bella y la bestia");
+        System.out.println(uno.getTituloLibro());
+        
+        
         uno.incremetarPagina();
         uno.ultimaPaginaLeda();
         uno.incremetarPagina();
         uno.ultimaPaginaLeda();
         uno.principioLibro();
+        
         
         
     }
