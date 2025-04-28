@@ -77,11 +77,58 @@ public class Persona implements Comparable<Persona> {
         System.out.println("Tu estatura es: " + estatura);
     }
 
-    // Implementación de Comparable para TreeSet (ordenando por edad)
-    @Override
+    /* @Override
     public int compareTo(Persona otraPersona) {
-        return Integer.compare(this.edad, otraPersona.edad);
+        return this.nombre.compareTo(otraPersona.nombre);
     }
+     */
+
+    /*
+    @Override
+    public int compareTo(Persona o) {
+
+        return Integer.compare(this.edad, o.edad);
+    }
+
+     */
+/*
+    @Override
+    public int compareTo(Persona o) {
+        if(this.nombre.compareTo(o.nombre) == 0) {
+            return Integer.compare(this.edad, o.edad);
+        }
+        return this.nombre.compareTo(o.nombre);
+    }
+
+ */
+   /*
+    @Override
+    public int compareTo(Persona o) {
+        return this.apellido.compareTo(o.apellido);
+    }
+
+    */
+
+    @Override
+    public int compareTo(Persona o) {
+        int compararApellido = this.apellido.compareTo(o.apellido);
+        if(compararApellido != 0){
+            return compararApellido;
+        }
+
+
+        int compararNombre = this.nombre.compareTo(o.nombre);
+        if(compararNombre != 0){
+            return compararNombre;
+        }
+
+
+        return Integer.compare(this.edad, o.edad);
+    }
+
+
+
+
 
     @Override
     public String toString() {

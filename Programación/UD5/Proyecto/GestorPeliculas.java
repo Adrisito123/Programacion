@@ -50,8 +50,8 @@ public class GestorPeliculas {
         });
         Iterator<Peliculas> iterator = listaDirector.iterator();
         while (iterator.hasNext()) {
-            Peliculas p = iterator.next();
-            System.out.println(p.getTitulo() + " - Valoración: " + p.getValoracionMedia() + " - Director: " + p.getDirector());
+            Peliculas pp = iterator.next();
+            System.out.println(pp.getTitulo() + " - Valoración: " + pp.getValoracionMedia() + " - Director: " + pp.getDirector());
         }
 
     }

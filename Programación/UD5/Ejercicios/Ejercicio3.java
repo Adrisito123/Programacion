@@ -2,12 +2,13 @@ package Ejercicios;
 
 import java.util.Iterator;
 import java.util.Set;
+import java.util.SortedSet;
 import java.util.TreeSet;
 
 public class Ejercicio3 {
     public static void main(String[] args) {
-        Set<Integer> numeros = new TreeSet<>();
-        Set<String>  nombres = new TreeSet<>();
+        SortedSet<Integer> numeros = new TreeSet<>();
+        SortedSet<String>  nombres = new TreeSet<>();
 
         numeros.add(8);
         numeros.add(2);
@@ -20,7 +21,7 @@ public class Ejercicio3 {
         //Listar nombres con TreeSet
         System.out.println("Lista de TreeSet pero con nombres:");
 
-        nombres.add("Adrian");
+        nombres.add("Fermin");
         nombres.add("Amador");
         nombres.add("Antonio");
 
